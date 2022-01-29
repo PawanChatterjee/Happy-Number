@@ -47,7 +47,7 @@ public class leetcode3
         System.out.println("Enter the number");
         n=in.nextInt();
         leetcode3 ob = new leetcode3();
-        if((n/10)<=0)
+        if((n/10)<1)
         {
         k=ob.digisum(n*n);
         }
